@@ -72,7 +72,6 @@ function defalutOpen(accordion) {
 function createItem(el,accordion, id, heading, num, edit) {
   const triggerId = `accordion-${id}-trigger-${num}`;
   const panelId = `accordion-${id}-content-${num}`;
-  const isIcon =  el.classList.contains('icon-down');
   const icon = createTag('span', { class: 'accordion-icon' });
 
   
