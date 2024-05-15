@@ -101,7 +101,9 @@ async function getSuppliedLibrary() {
   const repo = searchParams.get('repo');
   const owner = searchParams.get('owner');
   if (!repo || !owner) return null;
-  return fetchLibrary(`https://main--${repo}--${owner}.hlx.live`);
+  //return fetchLibrary(`https://main--${repo}--${owner}.hlx.live`);
+  return fetchLibrary('https://main--edge-milo--karthickvijay24.hlx.page');
+  
 }
 
 async function fetchAssetsData(path) {
