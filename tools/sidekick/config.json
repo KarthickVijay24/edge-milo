@@ -14,7 +14,7 @@
       "environments": [ "edit" ],
       "isPalette": true,
       "paletteRect": "top: auto; bottom: 25px; left: 25px; height: 388px; width: 360px;",
-      "url": "https://main--edge-milo--karthickvijay24.hlx.page/tools/library?skipConsent=true",
+      "url": "/tools/library?skipConsent=true",
       "includePaths": [ "**.docx**" ]
     },
     {
